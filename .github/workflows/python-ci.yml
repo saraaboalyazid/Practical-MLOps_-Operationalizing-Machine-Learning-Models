@@ -18,6 +18,7 @@ jobs:
       - name: Install dependencies
         run: |
           make install
+          pip install pylint  
 
       - name: Lint
         run: |
