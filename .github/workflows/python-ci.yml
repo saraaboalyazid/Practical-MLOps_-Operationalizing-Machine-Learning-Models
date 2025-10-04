@@ -18,7 +18,7 @@ jobs:
       - name: Install dependencies
         run: |
           make install
-          pip install pylint  
+          pip install pylint pytest pytest-cov  
 
       - name: Lint
         run: |
